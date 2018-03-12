@@ -12,7 +12,11 @@ $(function () {
 
     $(document).click(function(){
         searchSlideHide()
-        sideFixManueHide()
+        var _w = parseInt($(window).width());
+        if(_w<650){
+            sideFixManueHide()
+        }
+
     });
 
 
@@ -73,7 +77,7 @@ $(function () {
         placeList.push(top);
     }
 
-    var maxScorll=$(document).height() - $(window).height()*2;
+    var maxScorll=$(document).height() - $(window).height()*0.5;
 
     $(window).scroll(function () {
         var now_top=$(document).scrollTop();

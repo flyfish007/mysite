@@ -720,6 +720,10 @@ div.MCBreadcrumbsBox_0
 	font-style: normal;
 	border-radius:27px;
 	text-decoration: none;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+	overflow : hidden;
+	padding:0 14px;
 }
 .sideFixManue a.active{
 	background-color: #ffa633;
