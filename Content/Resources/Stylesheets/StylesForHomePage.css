@@ -46,6 +46,8 @@ nav.tab-bar
 .search-field
 {
 	padding-right: 0px !important;
+	float: right;
+	margin-right: 56px;
 }
 
 .mc-wrapper .mc-pager.mc-default-pager a:hover,

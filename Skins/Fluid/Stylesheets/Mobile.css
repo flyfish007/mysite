@@ -141,6 +141,7 @@
 		border-bottom: solid 1px #9b9b9f;
 		border-left: solid 1px #9b9b9f;
 		width:100%;
+		margin-right: 0!important;
 		padding-right: 106px;
 		background: #000000 url('Images/footer_bg_1.png');
 	}

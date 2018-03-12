@@ -17,7 +17,7 @@ a
 	color: #237dcb;
 }
 
-a:link
+a:link,a:hover,a:active,a:visited
 {
 	color: #ff9000;
 }
