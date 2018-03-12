@@ -1,0 +1,23 @@
+/*<meta />*/
+
+/* Da Tong project by SACT
+Embeded font
+ 	
+	
+
+*/
+
+@namespace MadCap "localhost";
+
+@font-face { 
+	font-family: 'HYShiGuangTiW';
+	src:url('https://c2b.saicmaxus.com/h5/manual/D90/Content/Resources/Stylesheets/fonts/HYShiGuangTiW.ttf');
+	src:url('https://c2b.saicmaxus.com/h5/manual/D90/Content/Resources/Stylesheets/fonts/HYShiGuangTiW.ttf') format('truetype');
+		
+} 
+
+span.SearchHighlight
+{
+	background-color: #fff500;
+}
+
