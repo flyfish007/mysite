@@ -1,6 +1,6 @@
 /*<meta />*/
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 1200px)
 {
 	nav.tab-bar
 	{
@@ -220,6 +220,10 @@
 		top:12px;
 	}
 
+	.sideFixManue a, .sideFixManue a:link, .sideFixManue a, .sideFixManue a:visited{
+		font-size: 14px;
+	}
+
 	.sideFixManueWrap{
 		display: none;
 		position: static;
@@ -231,6 +235,7 @@
 		position: static;
 		width:100%;
 		margin-left: -5px;
+		margin-top: 10px;
 	}
 	.sideFixManue a,.sideFixManue a:link{
 		display: inline-block;

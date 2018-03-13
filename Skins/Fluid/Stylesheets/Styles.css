@@ -19,14 +19,14 @@ body
 	margin: 0 auto;
 	padding-left:0;
 	padding-right:0;
-	max-width: 62.5em;
+	max-width: 1200px;
 }
 
 .main-section > .outer-row
 {
 	padding-top: 1em;
 	padding-bottom: 1em;
-	max-width: 62.5em;
+	max-width: 1200px;
 }
 
 img
@@ -143,7 +143,7 @@ ul.navigation a
 	height: 100%;
 	outline: none;
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 }
 
@@ -301,10 +301,8 @@ nav.tab-bar
 {
 	height: auto;
 	line-height: inherit;
-	padding: 10px 0;
+	padding: 17px 0;
 	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	background: #292928 url('Images/footer_bg_1.png') repeat center top;
 	-pie-background: #292928 url('https://c2b.saicmaxus.com/h5/manual/D90/Skins/Fluid/Stylesheets/Skins/Fluid/Stylesheets/Images/footer_bg_1.png') repeat center top;
 }
@@ -374,7 +372,7 @@ nav.tab-bar .menu-icon
 	top: 0;
 	left: 0;
 	position: relative;
-    width:188px;
+    width:308px;
 	height: 2em;
 	border-top: solid 1px #fff;
 	border-right:none;
@@ -385,7 +383,6 @@ nav.tab-bar .menu-icon
 	font-size: 1em;
 	background: #000000 url('Images/footer_bg_1.png');
 	-pie-background: #000000 url('https://c2b.saicmaxus.com/h5/manual/D90/Skins/Fluid/Stylesheets/Skins/Fluid/Stylesheets/Images/footer_bg_1.png');
-	padding-right: 106px;
 }
 
 .search-field::-webkit-search-cancel-button
@@ -817,3 +814,17 @@ h1#results-heading
 	display: block;
 }
 
+@media (max-width: 1200px)
+{
+	.search
+	{
+		position: absolute;
+		/* left: 2%; */
+		top: 8%;
+		width: 95%;
+	}
+	.search-field{
+		float: none;
+		width:100%;
+	}
+}

@@ -627,11 +627,6 @@ div.MCSlide
 
 div.MCMiniTocBox_0
 {
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: black;
-	padding-top: 10px;
-	margin-top: 10px;
 	padding-left: 20px;
 }
 
@@ -647,28 +642,7 @@ p.MiniTOC1_0
 
 a.MiniTOC1:link
 {
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-	border-left-color: transparent;
-	border-left-style: none;
-	border-left-width: 0;
-	border-right-color: transparent;
-	border-right-style: none;
-	border-right-width: 0;
-	border-top-color: transparent;
-	border-top-style: none;
-	border-top-width: 0;
-	border-bottom-color: transparent;
-	border-bottom-style: none;
-	border-bottom-width: 0;
-	background-color: transparent;
-	background-image: none;
+
 	float: inherit;
 	font-size: inherit;
 	font-family: inherit;
@@ -680,19 +654,17 @@ a.MiniTOC1:link
 	text-align: inherit;
 	mc-leader-format: '.';
 	color: black;
-	font-weight: bold;
 	text-decoration: none;
+    font-weight: normal;
 }
+
 
 div.MCBreadcrumbsBox_0
 {
-	border-bottom: none;
-	font-size: .7em;
-	border-bottom-width: 1px;
-	border-bottom-style: none;
-	border-bottom-color: black;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	border-bottom: solid 1px #eee;
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 	position: relative;
 }
 .sideFixManueWrap{
@@ -709,7 +681,7 @@ div.MCBreadcrumbsBox_0
 	width:100px;
 }
 
-.sideFixManue a,.sideFixManue a:link{
+.sideFixManue a,.sideFixManue a:link,.sideFixManue a,.sideFixManue a:visited{
 	display:block;
 	padding: 0;
 	line-height: 27px;
@@ -724,6 +696,7 @@ div.MCBreadcrumbsBox_0
 	white-space : nowrap;
 	overflow : hidden;
 	padding:0 14px;
+    font-size: 12px;
 }
 .sideFixManue a.active{
 	background-color: #ffa633;

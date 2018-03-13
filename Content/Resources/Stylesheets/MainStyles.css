@@ -17,26 +17,20 @@ a
 	color: #237dcb;
 }
 
-a:link,a:hover,a:active,a:visited
+a:link
 {
 	color: #ff9000;
 }
-
-/* 
-a:visited
-{
-	color: #237dcb;
+a:hover{
+    color: #ff900;
 }
-
-a:hover
-{
-	color: #BED230;
+a:visited{
+	color:#2D8DCC;
 }
-*/
 
 a.MiniTOC1:link
 {
-	color: #237dcb;
+	color: #666;
 }
 
 a.MCBreadcrumbsLink
@@ -46,12 +40,12 @@ a.MCBreadcrumbsLink
 
 a.MCBreadcrumbsLink:visited
 {
-	color: #000000;
+	color: #ff9000;
 }
 
 a.MCBreadcrumbsLink:hover
 {
-	color: #BED230;
+	color: #ff9000;
 }
 
 blockquote
@@ -568,6 +562,18 @@ table.no_lines th
 	/*	color: #000000; */
 }
 
+table.noborder{
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+table.noborder td{
+	border:none;
+}
+
 caption
 {
 	color: #000000;
@@ -728,6 +734,11 @@ td.caution p{
     background-color: #3179b5;
     border-radius: 3px;
 }
+
+td.tip p{
+    background-color: #8fbc8b;
+    border-radius: 3px;
+}
 td.caution
 {
 	background-color: #f7f3f7;
@@ -753,7 +764,7 @@ td.note
 
 td.tip
 {
-	background-color: #8fbc8b;
+	background-color: #f7f3f7;
 	font-weight: bold;
 	font-style: normal;
 	color: #ffffff;
@@ -862,17 +873,11 @@ h2.sectiontitle
 	font-weight: normal;
 	margin-bottom: 4px;
 	margin-top: 20px;
-	/*background: url('../Images/heading_bg.png') repeat;*/
-	font-size: 1.2em;
+	font-size: 22px;
 	color: #ff9000;
-    border-bottom: solid 1px #ccc;
     font-weight: bold;
 	margin-left: 0;
-	padding-left: 5px;
 	padding-right: 5px;
-	/*height: 41px;
- width: 800px; 
-	line-height: 38px;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-size: contain;
@@ -1053,7 +1058,10 @@ nav.tab-bar
 
 h1.topictitle
 {
-	font-weight: bold;
+	margin: 0;
+	font-size: 28px;
+    font-weight: bold;
+	color:#000;
 }
 
 html.topic
@@ -1180,16 +1188,6 @@ div.sectiondiv i
     color:#ff9000;
 }
 
-div.sectiondiv li{
-    list-style: none;
-    background: url("../Images/disc.png") no-repeat 0 7px;
-    padding-left:16px;
-    background-size: 10px 10px;
-}
-div.sectiondiv table li{
-    background: none;
-    padding-left: 0;
-}
 @media (min-width: 767px)
 {
 	div.fig img

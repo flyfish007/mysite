@@ -77,10 +77,11 @@ $(function () {
         placeList.push(top);
     }
 
-    var maxScorll=$(document).height() - $(window).height()*0.5;
-
+    var maxScorll=$(document).height() - $(window).height()*0.2;
+    console.log("maxScorll===>"+maxScorll);
     $(window).scroll(function () {
         var now_top=$(document).scrollTop();
+        console.log(now_top)
         var manueIdx=checkManueIdx(now_top);
         $(".sideFixManue a").eq(manueIdx).addClass("active").siblings().removeClass("active");
     })

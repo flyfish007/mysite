@@ -32,6 +32,7 @@
 
 .mc-wrapper .mc-controls {
     z-index: 1;
+
 }
 
 .mc-wrapper .mc-pager,
@@ -74,6 +75,7 @@ div.MCSlide{
 /* PAGER */
 
 .mc-wrapper .mc-pager {
+	display: none;
 	text-align: center;
 	font-size: .85em;
 	font-family: Arial;

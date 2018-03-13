@@ -45,9 +45,7 @@ nav.tab-bar
 
 .search-field
 {
-	padding-right: 0px !important;
-	float: right;
-	margin-right: 56px;
+
 }
 
 .mc-wrapper .mc-pager.mc-default-pager a:hover,
@@ -333,6 +331,11 @@ div.slidingshow
 	margin-bottom: 20px;
 }
 
+.downLinks{
+	text-align: center;
+	position: relative;
+	top:-30px;
+}
 /* Home Page Footer */
 
 .footer
@@ -464,8 +467,8 @@ section.main-section
 {
 	background-color: #000;
 	/* background-image: url('https://c2b.saicmaxus.com/h5/manual/D90/Content/Resources/Images/home_bg2.jpg'); */
-	background-position: center;
-	background-repeat: repeat-y;
+	background-position: center top;
+	background-repeat:no-repeat;
 }
 
 @media (min-width: 767px)
@@ -479,21 +482,23 @@ section.main-section
 @media (max-width: 767px)
 {
 	section.main-section
-	{
+{		background-size: 100% auto;
+		background-position: center;
 		background-image: url('../Images/home_mob.jpg');
+		padding-bottom: 50px;
+	}
+	.downLinks{
+		top:40px;
+	}
+	.mc-wrapper .mc-pager{
+		display: block;
+		bottom: -60px;
+	}
+	.mc-wrapper .mc-viewport{
+		top:40px;
 	}
 }
 
-@media (max-width: 767px)
-{
-	.search
-	{
-		position: absolute;
-		/* left: 2%; */
-		top: 8%;
-		width: 95%;
-	}
-}
 
 .MCSlide .points
 {
