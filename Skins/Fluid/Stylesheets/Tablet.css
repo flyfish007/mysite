@@ -1,6 +1,6 @@
 /*<meta />*/
 
-@media only screen and (max-width: 1279px)
+@media only screen and (max-width: 1200px)
 {
 	/* OffCanvas styles */
 
@@ -62,7 +62,7 @@
 
 	ul.navigation
 	{
-		display: none;
+
 	}
 
 	.responsive-header
