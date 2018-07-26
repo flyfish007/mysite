@@ -1,0 +1,29 @@
+/*css reset*/
+*{margin:0;padding:0;border:0;outline:0; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;clear:both;}
+body{ font-family: "PingFang SC","Microsoft YaHei","微软雅黑","Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:14px; background-color:#fff; -webkit-text-size-adjust:none;  -webkit-tap-highlight-color:transparent;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal}
+i,span,em,cite,p,dl,dt,dd,span,b{ font-style:normal; font-weight: normal;}
+input,button,textarea{ background: transparent; font-size: 100%;}
+img{border:0;-ms-interpolation-mode:bicubic; }
+ul,ol,li{list-style:none}
+a{ color: #29c1c2; text-decoration: none; }
+a:hover{ color: rgb(131, 192, 253); }
+
+@font-face {
+  font-family: 'iconfont';  /* project id 764407 */
+  src: url('//at.alicdn.com/t/font_764407_66c7vvdze2d.eot');
+  src: url('//at.alicdn.com/t/font_764407_66c7vvdze2d.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_764407_66c7vvdze2d.woff') format('woff'),
+  url('//at.alicdn.com/t/font_764407_66c7vvdze2d.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_764407_66c7vvdze2d.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
