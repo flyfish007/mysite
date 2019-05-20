@@ -1,2 +1,0 @@
-webpackJsonp([0],{"A/Dh":function(e,t){},wUZA:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",{staticClass:"hello"},[t("h1",[this._v(this._s(this.msg))])])},staticRenderFns:[]};var a=n("VU/8")({name:"home",data:function(){return{msg:"Welcome to flyfish blog"}}},s,!1,function(e){n("A/Dh")},"data-v-3f1d1a02",null);t.default=a.exports}});
-//# sourceMappingURL=0.a4a4a0816a3d959d1f96.js.map
