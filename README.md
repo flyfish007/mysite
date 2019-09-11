@@ -1,6 +1,6 @@
-# myblog
+# my-project
 
-> flyfish blog,welcome
+> A Vue.js project
 
 ## Build Setup
 
